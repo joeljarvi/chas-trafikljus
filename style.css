@@ -1,0 +1,61 @@
+.position {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.trafikljus {
+  background-color: grey;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+
+.red {
+  background-color: red;
+  border: solid 10px darkred;
+  display: flex;
+  justify-content: flex-end;
+  align-items: end;
+  height: 100px;
+}
+
+.yellow {
+  background-color: yellow;
+  border: solid 10px gold;
+  display: flex;
+  justify-content: flex-end;
+  align-items: end;
+  height: 100px;
+  width: 100px;
+}
+
+.green {
+  background-color: green;
+  border: solid 10px darkgreen;
+  display: flex;
+  justify-content: end-reverse;
+  align-items: end;
+  height: 100px;
+  width: 100px;
+}
+
+.lightred {
+  background-color: pink;
+  height: 50%;
+  width: 100%;
+}
+
+.lightyellow {
+  background-color: lightyellow;
+  height: 50%;
+  width: 50%;
+}
+
+.lightgreen {
+  background-color: lightgreen;
+  height: 50%;
+  width: 50%;
+}
